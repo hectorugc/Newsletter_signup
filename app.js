@@ -59,8 +59,8 @@ app.post("/failure",function(req,res){
   res.redirect("/")
 })
 
-app.listen(process.env.PORT || 3001,function(){
-  console.log("port 3001");
+app.listen(process.env.PORT || 3000,function(){
+  console.log("port 3000");
 });
 
 
